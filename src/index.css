@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-bg-primary: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset; /* cor nao muda quando faz o hover do mouse em cima */
+}
+
+html,
+body {
+  background-color: var(--color-bg-primary);
+}
