@@ -1,3 +1,4 @@
+import Card from "../../components/Card";
 import Header from "../../components/Header";
 import Searchbar from "../../components/Searchbar";
 import './styles.css';
@@ -16,9 +17,20 @@ export default function Catalog() {
                     </div>
 
                     <div className="ct-catalog-cards-container">
-                        <div>Teste</div>
+                    
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
 
                     </div>
+
 
                 </section>
             </main>

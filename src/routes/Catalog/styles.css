@@ -13,8 +13,10 @@
 }
 
 .ct-catalog-cards-container {
-  border: 1px solid blue;
-}
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+} 
 
 /* quando a tela for para 576px, o padding do main vai de 10 para 20px*/
 @media (min-width: 576px) {
